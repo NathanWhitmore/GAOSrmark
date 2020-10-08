@@ -42,6 +42,7 @@ In addition, the function will return:
 \strong{Note:} These RMark outputs can only be opened within R. The files are not named by model, but the model name can be found in the output text. The new files will not overwrite old files, consequently, the "Results" folder should be cleared before an analysis is run. 
 }
 
+}
 
 
 \examples{

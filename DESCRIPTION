@@ -1,11 +1,10 @@
 Package: GAOSrmark
 Type: Package
-Title: Huggins robust and closed capture analyses for DOC GAOS team (Title Case)
+Title: Huggins robust and closed capture analyses for GAOS monitoring
 Version: 0.1.0
 Author: Nathan Whitmore
 Maintainer: Nathan Whitmore <nathan@reproducible.co.nz>
-Description: Automated analyses of GAOS photo-resight data via program MARK
-    This package builds upon original GAOS code created by Andy Hutcheon.
+Description: Automated analyses of GAOS photo-resight data in R via program MARK. This package builds upon a robust design analysis written by Andy Hutcheon. 
 License: What license is it under?
 License: GPL-3
 LazyData: TRUE

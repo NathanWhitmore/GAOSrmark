@@ -4,8 +4,7 @@ closed_capture_encounters <-function(file.name,
                                      site,
                                      include1s,
                                      start_date,
-                                     finish_date,
-                                     year_folder){
+                                     finish_date){
 
   # resolve conflicts and suppress warnings
   suppressMessages(conflict_prefer("here", "here"))
@@ -15,7 +14,6 @@ closed_capture_encounters <-function(file.name,
   Site <- site
   start_date <- start_date
   finish_date <- finish_date
-  suffix <- year_folder
   include1s <- include1s
 
 # correction date in size-class column

@@ -1,5 +1,5 @@
 \name{amalgamate}
-
+\alias{amalgamate}
 \title{amalgamate}
 \usage{
 my.data <- amalgamate(a, b, ...)
@@ -33,4 +33,4 @@ my.data <- amalgamate(a, b)
 
 
 
-}
+

@@ -1,4 +1,5 @@
 \name{closed_model_average}
+\alias{closed_model_average}
 
 \title{closed_model_average}
 
@@ -16,7 +17,7 @@ Generates model averaged estimates from the outputs of \code{closed_capture_anal
 
 \itemize{
 \item \code{site_species}: the site and species name corresponding to those used by the \code{sloop_robust_design} function.
-\item \code{year}: the year in which the closed capture monitoring occurred (required for graphing).    
+\item \code{year}: the year in which the closed capture monitoring occurred (required for graphing). Note: \code{year} is numeric.    
  
 }
 
@@ -44,11 +45,10 @@ closed_capture_encounters(file.name = "Extract_Grand.csv",
                           
 closed_capture_analysis(path = "Closed_capture/2015_16/Grand/Airport",
                         site_species = "Airport_grand",
-                        year = "2016")                          
+                        year = 2016)                          
 
 closed_model_average(site_species = "Airport_grand", year = 2016)
 }
 
 
 
-}

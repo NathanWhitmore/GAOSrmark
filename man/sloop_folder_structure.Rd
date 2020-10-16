@@ -1,4 +1,5 @@
 \name{sloop_folder_structure}
+\alias{sloop_folder_structure}
 
 \title{sloop_folder_structure}
 \usage{
@@ -22,4 +23,4 @@ sloop_folder_structure(folder = "Sloop_robust_design")
 
 
 
-}
+

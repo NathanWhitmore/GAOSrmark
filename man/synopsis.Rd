@@ -1,5 +1,5 @@
 \name{synopsis}
-
+\alias{synopsis}
 \title{synopsis}
 
 \usage{
@@ -12,7 +12,7 @@ Combines differing analyses into a single data set and graph.
 }
 
 
-\format{
+\arguments{
 
 \itemize{
 \item \code{folder_name}: the folder into which the outputs of the \code{synopsis} are to be delivered.
@@ -22,7 +22,7 @@ Combines differing analyses into a single data set and graph.
 
 
 }
-}
+
 
 
 \details{
@@ -34,16 +34,8 @@ The function will write the following outputs to the folder:
 }
 
 
-}
+
 \examples{
 synopsis(folder_name = "2018_synopsis", 
          data = my.data,
          site_species = "Airport_grand")
-
-
-}
-
-
-
-}
-

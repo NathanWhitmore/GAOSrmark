@@ -1,4 +1,5 @@
 \name{closed_capture_analysis}
+\alias{closed_capture_analysis}
 
 \title{closed_capture_analysis}
 
@@ -18,7 +19,7 @@ Runs the Huggins variant of the closed analysis in program MARK using the RMark 
 \itemize{
 \item \code{path}: the internal path to the folder where the results and outputs should be deposited.
 \item \code{site_species}: the site and species name corresponding to those used by the \code{sloop_robust_design} function.
-\item \code{year}: the year in which the closed capture monitoring occurred (required for graphs).    
+\item \code{year}: the year in which the closed capture monitoring occurred (required for graphs). Note: \code{year} is numeric.   
  
 }
 }
@@ -54,7 +55,7 @@ closed_capture_encounters(file.name = "Extract_Grand.csv",
                           
 closed_capture_analysis(path = "Closed_capture/2015_16/Grand/Airport",
                         site_species = "Airport_grand",
-                        year = "2016")                          
+                        year = 2016)                          
 
 closed_model_average(site_species = "Airport_grand", year = 2016)
 }
@@ -62,4 +63,4 @@ closed_model_average(site_species = "Airport_grand", year = 2016)
 
 
 
-}
+

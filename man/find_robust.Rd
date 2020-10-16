@@ -1,4 +1,5 @@
 \name{find_robust}
+\alias{find_robust}
 
 \title{find_robust}
 
@@ -37,4 +38,3 @@ a <- find_robust(period = "2012_13",
 
 
 
-}

@@ -1,4 +1,5 @@
 \name{mini_capture_analysis}
+\alias{mini_capture_analysis}
 
 \title{mini_capture_analysis}
 
@@ -17,7 +18,7 @@ An alternate version of the \code{closed_capture_analysis} function in which the
 \itemize{
 \item \code{path}: the internal path to the folder where the results and outputs should be deposited.
 \item \code{site_species}: the site and species name corresponding to those used by the \code{sloop_robust_design} function.
-\item \code{year}: the year in which the closed capture monitoring occurred (required for graphs).    
+\item \code{year}: the year in which the closed capture monitoring occurred (required for graphs). Note \code{year} is numeric.   
  
 }
 }
@@ -53,10 +54,10 @@ closed_capture_encounters(file.name = "Extract_Grand.csv",
 
 mini_capture_analysis(path = "Closed_capture/2015_16/Grand/TopMini",
                       site_species = "TopMini_grand",
-                      year = "2016")
+                      year = 2016)
 }
 
 
 
 
-}
+

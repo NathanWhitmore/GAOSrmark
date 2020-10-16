@@ -1,4 +1,5 @@
 \name{find_closed}
+\alias{find_closed}
 
 \title{find_closed}
 
@@ -37,4 +38,4 @@ b <- find_closed(period = "2015_16",
 
 
 
-}
+

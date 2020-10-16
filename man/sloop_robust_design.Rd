@@ -1,4 +1,5 @@
 \name{sloop_robust_design}
+\alias{sloop_robust_design}
 
 \title{sloop_robust_design}
 
@@ -34,7 +35,7 @@ In addition, the function will return:
 \itemize{
 \item \code{path}: path within project folder to .inp and .txt files.
 \item \code{site_species}: site species name to find the correct .inp and .txt files. 
-\item \code{start_year}: the year in which robust design monitoring began (typically 2006). This input is required because the .txt files derived from Sloop do not state the start year (this causes issues when graphing) 
+\item \code{start_year}: the year in which robust design monitoring began (typically 2006). This input is required because the .txt files derived from Sloop do not state the start year (this causes issues when graphing). Note: \code{start_year} is numeric. 
 }
 }
 
@@ -48,5 +49,5 @@ sloop_robust_design(path = "Sloop_robust_design/2012_13/Grand/Airport",
 
 
 
-}
+
 

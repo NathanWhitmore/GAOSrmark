@@ -39,3 +39,5 @@ The function will write the following outputs to the folder:
 synopsis(folder_name = "2018_synopsis", 
          data = my.data,
          site_species = "Airport_grand")
+         
+         }

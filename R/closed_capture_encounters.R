@@ -77,7 +77,7 @@ cutdown$year <- year(cutdown$date)
 
 # filter by site
 photo <- cutdown %>%
-  filter(site == Site,
+  filter(site == Site, 
          date >= ymd(start_date) &
            date <= ymd(finish_date))
 
@@ -120,9 +120,15 @@ encounter <- small %>%
   pivot_wider(names_from = date, values_from = counter)
 
 # substitute zeros for missing values
+# encounter <- encounter %>%
+#  mutate_if(is.factor, as.character)%>%
+#   replace(is.na(.), "0")
+
 encounter <- encounter %>%
-  mutate_if(is.factor, as.character)%>%
-  replace(is.na(.), "0")
+  mutate_if(is.factor, as.character)
+
+encounter[is.na(encounter)] <- 0
+
 
 
 # time intervals
